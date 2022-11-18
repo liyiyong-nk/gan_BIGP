@@ -52,7 +52,7 @@ stage 1
 python gan_bigp.py --lrw 8e-6 --alpha 1e-6 --contral_rate 0.001 --epochs 200 --dataset horse2zebra --task A2B --gpu 1
 ```
 remark:
-alpha*sparse_loss= 1e-6*334967.2812=0.3350 and perceptual=0.5922 should have a homologous quantity. The compression ratio you want to achieve may take several stages, which you should
+alpha*sparse_loss= 1e-6**334967.2812=0.3350 and perceptual=0.5922 should have a homologous quantity. The compression ratio you want to achieve may take several stages, which you should
 follw the remark and modify the g_path in gan_bigp.py. The fuctions (BIG_loss, update_in) in gan_bigp.py can be flexibly applied to your project.
 
 ```
