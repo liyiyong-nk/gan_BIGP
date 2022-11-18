@@ -49,7 +49,7 @@ For example, `train_set_result/horse2zebra/B/n02381460_2_fake.png` is the fake z
 code eg:
 ```
 stage 1
-python gan_bigp.py --lrw 8e-6 --alpha 1e-6 --contral_rate 0.001 --epochs 200 --dataset horse2zebra --task A2B --gpu 1
+python gan_bigp.py --lrw 6e-6 --alpha 1e-6 --contral_rate 0.001 --epochs 200 --dataset horse2zebra --task A2B --gpu 1
 ```
 remark:
 alpha*sparse_loss= 1e-6 * 334967.2812=0.3350 and perceptual=0.5922 should have a homologous quantity. The compression ratio you want to achieve may take several stages, which you should
