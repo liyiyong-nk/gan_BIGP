@@ -57,12 +57,12 @@ follw the remark and modify the g_path in gan_bigp.py. The fuctions (BIG_loss, u
 
 ```
 stage 2
-python gan_bigp.py --lrw 8e-6 --alpha 9.8e-5 --contral_rate 0.0046 --epochs 200 --dataset horse2zebra --task A2B --gpu 1
+python gan_bigp.py --lrw 6e-6 --alpha 9.8e-5 --contral_rate 0.0046 --epochs 200 --dataset horse2zebra --task A2B --gpu 1
 ```
 
 ```
 stage 3
-python gan_bigp.py --lrw 8e-6 --alpha 1.1e-4 --contral_rate 0.012 --epochs 200 --dataset horse2zebra --task A2B --gpu 1
+python gan_bigp.py --lrw 6e-6 --alpha 1.1e-4 --contral_rate 0.012 --epochs 200 --dataset horse2zebra --task A2B --gpu 1
 ```
 
 The training results (checkpoints, loss curves, etc.) will be saved in `results/<dataset_name>/<task_name>`.
