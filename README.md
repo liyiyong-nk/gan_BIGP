@@ -88,7 +88,13 @@ The generated images will be saved in result_dir.
 ## Citation
 
 If you use this code for your research, please cite our paper.
-  ```shell
+```
+ @inproceedings{bigp2022bmvc,
+title={Are we pruning the correct channels in image-to-image translation models?},
+author={Yiyong Li, Zhun Sun, and Chao Li},
+booktitle={BMVC},
+year={2022}
+}
 ```
 
 ## Acknowledgements
