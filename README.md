@@ -1,6 +1,7 @@
 # Are we pruning the correct channels in image-to-image translation models? （BIGP）
 Yiyong Li1, Zhun Sun1*, Lichao2 *corresponding author, zhunsun@gmail.com
 1 BIGO Ltd, 2 Tohoku University, 3 AIP, RIKEN
+https://bmvc2022.mpi-inf.mpg.de/0551.pdf
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
